@@ -521,8 +521,6 @@ h3 {
   line-height: 1.5;
 }
 
-
-
 .site-footer {
   color: #fff;
   background-color: #0050c3;
@@ -540,7 +538,7 @@ h3 {
 }
 
 .site-footer-text {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .site-footer-link {
@@ -559,7 +557,7 @@ h3 {
   color: #fff;
 }
 
-.site-footer__social-list {
+.site-footer-social-list {
   display: flex;
   gap: 15px; 
   list-style: none;
@@ -567,13 +565,13 @@ h3 {
   padding: 0;
 }
 
-.site-footer__social img {
+.site-footer-social img {
   opacity: 0.3;
   width: 24px;
   height: 24px;
   transition: 0.3s ease;
 }
 
-.site-footer__social img:hover {
+.site-footer-social img:hover {
   opacity: 1; 
 }
